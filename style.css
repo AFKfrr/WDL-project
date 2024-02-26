@@ -40,7 +40,7 @@ h2 {
 .input-check:checked~h2 {
     color: #ff5100;
     text-shadow:
-        0 0 15px #ff5100;,
+        0 0 15px #ff5100,
         0 0 30px #ff5100;
         
 }
