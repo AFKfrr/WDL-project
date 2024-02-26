@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="parent">
+        <div class="parallex">
+        <h1>Ferry Wheel</h1>
+        <p>Experience the Joy!</p>
+        <img src="https://media.istockphoto.com/id/1450358515/photo/ferris-wheel-and-empty-rides-in-amusement-park-without-people.webp?b=1&s=170667a&w=0&k=20&c=e_H3pKuVx9Nd3djpHDtqCyYqb2NkqoOfAlhYG8SR9D0=" border-radius: 50%; size="600"/>
+        
+    </div>
+      </div>
+      
+      <div class="parent">
+        <div>
+        <h1>Carousel  </h1>
+        <p>Experience the joyy!!</p>
+        <img src="https://images.unsplash.com/photo-1611745179863-e123a89795fa?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="600"/>
+        </div>
+      </div>
+      
+      <div class="parent">
+        <div>
+        <h1>Roller Coster</h1>
+        <p>Experience the thrill</p>
+        <img src="https://wallpaperset.com/w/full/e/0/8/58522.jpg" width="600"/>
+        </div>
+      </div>
+      
+      <div class="parent">
+        <div>
+        <h1>Haunted House</h1>
+        <p>Experience The Scary Feel</p>
+        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwallpapers.com%2Fwallpapers%2Fspooky-abandoned-theme-park-0pjsw6tmqvars7k6.html&psig=AOvVaw3Ta1SOz8xzMR3xpXWOk_8-&ust=1709024504679000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNCJguaIyIQDFQAAAAAdAAAAABAD" width="600"/>
+        </div>
+      </div>
+      
+      <div class="parent">
+        <div>
+        <h1>Free Fall</h1>
+        <p>Experience The Height</p>
+        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Ftraveltriangle.com%2Fblog%2Famusement-parks-in-india%2F&psig=AOvVaw2A_kUcVYCg5UtjoJHnurHV&ust=1709024632211000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCOjhmaeJyIQDFQAAAAAdAAAAABAD" width="600"/>
+        </div>
+      </div>
+</body>
+
+<style>
+    * {
+  padding: 0;
+  margin: 0
+}
+.parent:first-of-type {
+  background: #ffffff url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pickpik.com%2Fsanta-monica-pier-pier-fun-funfair-fairground-ferris-wheel-36732&psig=AOvVaw3x5OStZdmMMyNkE2rEH8h_&ust=1709025322622000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNCI8PCLyIQDFQAAAAAdAAAAABAF") no-repeat center center fixed;
+  background-size: cover;
+}
+.parent:nth-of-type(2) {
+  background: #ffffff url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Famusement%2520park%2F&psig=AOvVaw1i3IfoocEsb_U73vNODS9I&ust=1709024963995000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIDLms-KyIQDFQAAAAAdAAAAABAk") no-repeat center center fixed;
+  background-size: cover;
+}
+.parent:nth-of-type(3) {
+  background: #ffffff url("https://digwallpapers.com/wallpapers/full/9/9/1/95578-3000x2000-roller-coaster-wallpaper-image-desktop-hd.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+.parent:nth-of-type(4) {
+  background: #ffffff url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F127437864428835166%2F&psig=AOvVaw0enrKHCiGljfQ4N-wifGjT&ust=1709025488842000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKD5sMCMyIQDFQAAAAAdAAAAABAj") no-repeat center center fixed;
+  background-size: cover;
+}
+.parent:last-of-type {
+  background: #ffffff url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fbestonamusementequipment.com%2Fdrop-tower-ride-for-sale%2F&psig=AOvVaw1i3IfoocEsb_U73vNODS9I&ust=1709024963995000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIDLms-KyIQDFQAAAAAdAAAAABAS") no-repeat center center fixed;
+  background-size: cover;
+}
+.parent {
+  width: 100%;
+  height: 150vh;
+  color: #fff;
+  text-shadow: 0 0 5px #000;
+  font-family: tahoma;
+  text-align: center;
+  line-height: 180%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden
+}
+.parent p {
+  padding: 25px
+}
+</style>
+
+<script>
+    /*global $, jQuery, console, alert, prompt */
+$(function() {
+  "use strict";
+  // All Variable ==========================================================================
+  var parallex = $(".parent > .parallex");
+  // Scroll ================================================================================
+
+  $(window).on('scroll', function() {
+    parallex.css({
+      "transform": "translate(0, " + $(window).scrollTop() + "px)"
+    });
+    if ($('.parent > div').offset.top() >= $(window).scrollTop()) {
+      parallex = $(".parent > .parallex, .parent > div");
+    }
+  });
+
+});
+
+// https://codepen.io/anon/pen/XRYrPz?editors=0110
+</script>
+</html>
+
+
+
