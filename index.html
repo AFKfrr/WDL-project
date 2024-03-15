@@ -51,6 +51,18 @@
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script type="text/javascript">
+        function myfunc(event) {
+            event.preventDefault();
+
+            var Email = document.getElementById("Email").value;
+            var Password = document.getElementById("Password").value;
+
+            localStorage.setItem('1s_Email', Email);
+            localStorage.setItem('1s_Password', Password);
+        }
+    </script>
 </body>
 
 </html>
